@@ -1,0 +1,224 @@
+.page-header {
+    margin-top:0;
+}
+.panel-body {
+    padding-top:0;
+}
+.content-padding { margin-top:100px; }
+.carousel-indicators li { background-color:#555; border:1px solid #555; }
+.carousel-indicators .active { border:none; }
+.carousel-indicators { bottom:-40px; }
+#myCarousel { margin-bottom:38px; border:none; margin-top:60px; opacity:0.8;  }
+body { padding-top: 0px; padding-bottom:0px; background-image:url(img/dark_wall.png); }
+.nav li { cursor:pointer; }
+.carousel-control.right {
+    background:none;
+    color:#1d1d1d;
+    opacity:1;
+}
+.carousel-control.left {
+    background:none;
+    color:#1d1d1d;
+    opacity:1;
+}
+#what-we-do { 
+    font-family: 'Nothing You Could Do', cursive; 
+    color:#888; 
+    margin-left:20px; 
+    margin-bottom:0px; 
+    margin-left:0px; 
+    border-bottom:3px solid #888; 
+    letter-spacing:-0.1em;
+    text-shadow: #0d0d0d 0 0 0.2em; 
+}
+.order-now label {
+    color:#888;
+    font-family: 'Share Tech', sans-serif;
+    text-transform: uppercase;
+    padding-right:0;
+    margin-right:0;
+}
+.btn-order {
+    font-family: 'Share Tech', sans-serif;
+}
+.page-header {
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    font-weight:700;
+    text-shadow: #0d0d0d 0 0 0.2em;
+    color:#428bca;
+    text-align:center;
+    border:none;
+    padding-top:13px;
+    border-bottom:1px dotted #888;
+    border-top:1px dotted #888;
+    margin-top:30px;
+    font-family: 'Share Tech', sans-serif;
+}
+.tech-font { font-family: 'Share Tech', sans-serif; color:#888; text-transform: uppercase; font-size:1.2em; }
+.tech-font-h { font-size:2.4em; font-weight:700; }
+.ready-to-order { color:#5cb85c; }
+.not-ready { color:#f0ad4e; }
+.main_box_header {
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    font-weight:700;
+    text-shadow: #0d0d0d 0 0 0.2em;
+}
+#instagram {
+    background:transparent; 
+    color:#888;
+}
+#instagram .panel-title {
+    letter-spacing: -0.1em;
+    font-weight:700;
+    text-transform: uppercase;
+    font-size:2em;
+    padding:15px;
+    font-family: 'Share Tech', sans-serif;
+}
+iframe {  }
+
+//small screen sizes
+@media (max-width: 991px) {
+    .mobile-only {
+        display:block !important;
+    }
+ 
+    .desktop-only {
+        display:none !important;
+    }
+}
+.dropdown-menu > li > a:hover {
+    background-color:#428bca;
+    color:white;
+}
+.main_page .img-thumbnail {
+    background:transparent;
+    border:none;
+    border-bottom:3px solid #888;
+    border-radius: 0;
+    color:#888;
+    width:100%;
+    font-family: 'Share Tech', sans-serif;
+}
+
+.main_page img .img-thumbnail {
+    border:2px solid red;
+}
+.homepage .list-group-item {
+    background:transparent;
+    border:none;
+    text-transform: uppercase;
+    letter-spacing: -.075em;
+    border-bottom:1px dotted #888;
+}
+.homepage li:hover { color:#fff; }
+.homepage li:last-child { border-bottom:0px; }
+.footer-links a { color:#3e3e3e; font-family: 'Share Tech', sans-serif; text-transform: uppercase;}
+/*
+ * navbar styles
+ */
+.navbar-inverse { border:none;border-radius:0; padding:0px; margin:0px; margin-top:20px; border-top:8px solid #535353; background-color:#171717; }
+.navbar-inverse h3 { font-size:1.5em; text-transform: uppercase; letter-spacing:-.1em; font-weight:700; font-family: 'Share Tech', sans-serif;}
+.navbar-default li a { text-transform:uppercase; font-size:.8em; }
+.navbar-default {
+    margin-bottom:0px;
+    border-radius:0px;
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+
+	border-bottom:none;
+}
+
+.navbar-default .navbar-brand {
+	color: #383838;
+    font-family: 'Share Tech', sans-serif;
+    text-transform: uppercase;
+    font-size:1.7em;
+    padding-top:10px;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #428bca;
+}
+.navbar-default .navbar-text {
+	color: #383838;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #383838;
+    font-family: 'Share Tech', sans-serif;
+    font-size:1.2em;
+}
+.navbar-default .navbar-nav > li > a:focus {
+	color: #383838;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #888;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #454545;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #ffffff;
+	background-color: #454545;
+}
+.navbar-default .navbar-toggle {
+	border-color: #535353;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #454545;
+    border-color:#454545;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #535353;
+}
+.navbar-default .navbar-toggle:hover .icon-bar {
+	background-color: #fff;
+}
+.navbar-default .navbar-toggle:focus .icon-bar {
+	background-color: #fff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #383838;
+}
+.navbar-default .navbar-link {
+	color: #383838;
+    
+}
+.navbar-default .navbar-link:hover {
+	color: #ffffff;
+}
+.dropdown-menu > li > a {
+    
+    font-family: 'Share Tech', sans-serif;
+    font-size:1.2em;
+        }
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #383838;
+    font-family: 'Share Tech', sans-serif;
+    font-size:1.2em;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #ffffff;
+	}
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+		color: #888;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #000;
+		background-color: #454545;
+	}
+}
+
+html,body{height:100%;}
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}

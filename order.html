@@ -1,0 +1,67 @@
+<div class="container">
+    
+<div class="row">
+            <div class="col-xs-12">
+                <h1 class="page-header ready-to-order" style="margin-top:75px"><i class="fa fa-check-square"></i><br>ready to order?<br /><small>tell us what you need</small><br /><i class="fa fa-angle-double-down"></i></h1>
+            </div>    
+        </div>
+	
+    <form class="form-horizontal order-now" role="form">
+        
+         <div id="messages"></div>
+        
+  <div class="form-group">
+      <div class="col-sm-3"></div>
+    <label for="inputEmail" class="col-sm-2 control-label">Email <i class="fa fa-arrow-right"></i></label>
+    <div class="col-sm-4">
+      <input type="text" class="form-control" id="inputEmail" placeholder="Email" ng-model="orderForm.email">
+    </div>
+  </div>
+        
+  <div class="form-group">
+      <div class="col-sm-3"></div>
+    <label for="inputName" class="col-sm-2 control-label">Full Name <i class="fa fa-arrow-right"></i></label>
+    <div class="col-sm-4">
+      <input type="text" class="form-control" id="inputName" placeholder="First & Last" ng-model="orderForm.name">
+    </div>
+  </div>
+        
+    <div class="form-group">
+      <div class="col-sm-3"></div>
+    <label for="inputPassword" class="col-sm-2 control-label">Service <i class="fa fa-arrow-right"></i></label>
+    <div class="col-sm-4">
+      <select class="form-control" ng-model="orderForm.service">
+          <option>Web Design</option>
+          <option>Graphic Design</option>
+          <option>Other</option>
+        </select>
+        
+    </div>
+  </div>
+        <div class="form-group">
+      <div class="col-sm-4"></div>
+   
+    <div class="col-sm-5 text-center">
+        <label class="success">In the box below, tell us everything you need. Try to include as much information about your project as possible.<br><i class="fa fa-arrow-down"></i></label>
+    </div>
+  </div>
+<div class="form-group">
+    <div class="col-sm-4"></div>
+   
+    <div class="col-sm-5 text-center">
+        <textarea class="form-control" rows="5" ng-model="orderForm.description"></textarea>
+    </div>
+  </div>
+        
+    <div class="form-group">
+      <div class="col-sm-4"></div>
+    
+    <div class="col-sm-5">
+      <button type="button" ng-click="orderSubmit()" class="btn btn-success btn-lg btn-block btn-order"><i class="fa fa-envelope"></i> SEND MESSAGE</button>
+        
+    </div>
+  </div>
+        
+</form>
+
+</div>
